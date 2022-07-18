@@ -13,3 +13,5 @@ app.use('/user',require('./routes/user'));
 app.listen(process.env.PORT,()=>{
     console.log(`servidor corriendo en el puerto ${process.env.PORT}`);
 })
+
+module.exports = app;
